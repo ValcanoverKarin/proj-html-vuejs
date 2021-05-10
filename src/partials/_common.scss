@@ -10,11 +10,41 @@
     @include navabar_link;
 }
 
+.small-text {
+    font-size: $small_font;
+}
+
 //bottoni
 button {
     @include btn_app;
-    background-color: $btn_color;
+    background-color: $orange_color;
     font-family: $font_common;
+}
+
+.tasto-prev, .tasto-next {
+    @include btn_lateral;
+}
+
+.tasto-prev {
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    border-left: 0;
+    left: 0;
+
+    .small-text {
+        transform: rotate(90deg);
+    }
+}
+
+.tasto-next {
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-right: 0;
+    right: 0;
+
+    .small-text {
+        transform: rotate(-90deg);
+    }
 }
 
 //lista

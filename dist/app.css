@@ -15,6 +15,10 @@
   margin: auto;
 }
 
+.small-text {
+  font-size: 7px;
+}
+
 button {
   text-transform: uppercase;
   border: 0px;
@@ -24,6 +28,38 @@ button {
   cursor: pointer;
   background-color: #D2401E;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.tasto-prev, .tasto-next {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  color: #D2401E;
+  text-transform: uppercase;
+}
+
+.tasto-prev {
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+  border-left: 0;
+  left: 0;
+}
+.tasto-prev .small-text {
+  transform: rotate(90deg);
+}
+
+.tasto-next {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border-right: 0;
+  right: 0;
+}
+.tasto-next .small-text {
+  transform: rotate(-90deg);
 }
 
 ul {
@@ -37,8 +73,9 @@ ul {
 
 header {
   background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
-  background-repeat: repeat;
   position: relative;
+  background-size: cover;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .navbar ul {

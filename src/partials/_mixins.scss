@@ -1,5 +1,5 @@
 @mixin navabar_link {
-    color: white;
+    color: $white_color;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,12 +12,20 @@
 @mixin btn_app {
     text-transform: uppercase;
     border: 0px;
-    color: white;
+    color: $white_color;
     padding: 9px 21px;
     font-size: $small_font;
     cursor: pointer;
 }
 
 @mixin btn_lateral {
-    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: $white_color;
+    color: $orange_color;
+    text-transform: uppercase;
 }
