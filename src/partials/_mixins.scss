@@ -1,0 +1,7 @@
+@mixin btn_app {
+    text-transform: uppercase;
+    border: 0px;
+    color: white;
+    padding: 5px 10px;
+    font-size: $small_font;
+}

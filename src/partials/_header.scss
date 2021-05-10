@@ -1,0 +1,12 @@
+header {
+    background-image: url(../img/sfondo.png);
+    background-repeat: repeat;
+    position: relative;
+    
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

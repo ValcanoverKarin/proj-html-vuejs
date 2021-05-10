@@ -1,0 +1,17 @@
+// RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    @include btn_app;
+    background-color: $btn_color;
+    font-family: $font_common;
+}

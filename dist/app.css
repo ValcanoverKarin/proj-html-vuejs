@@ -1,1 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  text-transform: uppercase;
+  border: 0px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 8px;
+  background-color: #D2401E;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+  background-image: url(../img/sfondo.png);
+  background-repeat: repeat;
+  position: relative;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
