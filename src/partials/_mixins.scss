@@ -1,7 +1,18 @@
+@mixin navabar_link {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: $font_common;
+    font-size: $small_font;
+    width: 65%;
+    margin: auto;
+}
+
 @mixin btn_app {
     text-transform: uppercase;
     border: 0px;
     color: white;
-    padding: 5px 10px;
+    padding: 9px 20px;
     font-size: $small_font;
 }

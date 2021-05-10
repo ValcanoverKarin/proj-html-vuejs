@@ -4,28 +4,57 @@
   box-sizing: border-box;
 }
 
-img {
-  display: block;
-  width: 100%;
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 7px;
+  width: 65%;
+  margin: auto;
 }
 
 button {
   text-transform: uppercase;
   border: 0px;
   color: white;
-  padding: 5px 10px;
-  font-size: 8px;
+  padding: 9px 20px;
+  font-size: 7px;
   background-color: #D2401E;
   font-family: "Roboto Condensed", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.icon img {
+  width: 20px;
+  padding-right: 3px;
+}
+
 header {
-  background-image: url(../img/sfondo.png);
+  background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
   background-repeat: repeat;
   position: relative;
 }
-header .navbar {
+
+.navbar ul {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+}
+.navbar ul li {
+  padding: 13px 12px 13px 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.center .logo-app {
+  display: flex;
+  align-items: center;
+}
+.center .logo-app img {
+  width: 90px;
 }

@@ -1,12 +1,33 @@
 header {
-    background-image: url(../img/sfondo.png);
+    background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
     background-repeat: repeat;
     position: relative;
-    
-
-    .navbar{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
 }
+
+    .navbar {
+        
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                padding: 13px 12px 13px 12px;
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+
+            }
+        }
+    }
+
+    .center {
+
+        .logo-app {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 90px;
+            }
+        }
+    }

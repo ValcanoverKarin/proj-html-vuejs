@@ -5,13 +5,28 @@
     box-sizing: border-box;
 }
 
-img {
-    display: block;
-    width: 100%;
+//navbar
+.navbar {
+    @include navabar_link;
 }
 
+//bottoni
 button {
     @include btn_app;
     background-color: $btn_color;
     font-family: $font_common;
+}
+
+//lista
+ul {
+    list-style-type: none;
+}
+
+//icone
+.icon {
+
+    img {
+        width: 20px;
+        padding-right: 3px;
+    }
 }
