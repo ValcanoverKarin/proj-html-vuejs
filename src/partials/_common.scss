@@ -23,6 +23,7 @@
     font-family: $font_common;
     color: $color_font_dgray;
     text-transform: uppercase;
+    letter-spacing: $space_font_title;
 }
 
 
@@ -33,6 +34,7 @@ h2 {
     font-family: $font_common;
     color: $color_font_dgray;
     padding-bottom: 7px;
+    letter-spacing: $space_font_title;
 }
 
 p {
@@ -42,6 +44,14 @@ p {
     font-weight: 500;
     padding-bottom: 6px;
     margin-left: 28px;
+}
+
+h1 {
+    font-size: $big_font;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:$white_color;
 }
 
 
@@ -65,6 +75,7 @@ button {
 
     .small-text {
         transform: rotate(90deg);
+        margin-top: 5px;
 
     }
 }

@@ -9,33 +9,35 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 7px;
+  font-size: 8px;
   width: 65%;
   margin: auto;
 }
 
 .small-text {
-  font-size: 7px;
-  letter-spacing: 1px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-size: 8px;
+  letter-spacing: 2px;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .subtitle {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 600;
   padding: 10px 0px 7px 0px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   color: #303030;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h2 {
-  font-size: 23px;
+  font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   color: #303030;
   padding-bottom: 7px;
+  letter-spacing: 1px;
 }
 
 p {
@@ -47,16 +49,24 @@ p {
   margin-left: 28px;
 }
 
+h1 {
+  font-size: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  color: white;
+}
+
 button {
   text-transform: uppercase;
   border: 0px;
   color: white;
   padding: 9px 18px;
-  font-size: 7px;
+  font-size: 8px;
   cursor: pointer;
   background-color: #D2401E;
-  font-family: "Roboto Condensed", sans-serif;
-  letter-spacing: 1px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2px;
 }
 
 .tasto-prev, .tasto-next {
@@ -79,6 +89,7 @@ button {
 }
 .tasto-prev .small-text {
   transform: rotate(90deg);
+  margin-top: 5px;
 }
 
 .tasto-next {
@@ -114,8 +125,8 @@ header {
   background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
   position: relative;
   background-size: cover;
-  font-family: "Roboto Condensed", sans-serif;
-  letter-spacing: 1px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2px;
 }
 
 .navbar ul {
@@ -134,7 +145,7 @@ header {
   align-items: center;
 }
 .center .logo-app img {
-  width: 86px;
+  width: 95px;
 }
 
 .jumbotron .urban {
@@ -152,8 +163,8 @@ header {
   transform: translate(-50%);
 }
 .jumbotron .urban .pizza-logo img {
-  width: 52%;
-  transform: translateX(46%);
+  width: 56%;
+  transform: translateX(40%);
   padding-top: 4px;
 }
 
@@ -260,6 +271,7 @@ main .advertising .adv-img img {
   background-position-y: -75px;
   background-position-x: center;
   background-image: url(../img/h3-background-img.jpg);
+  margin-bottom: 5px;
 }
 .container-img .up {
   background-image: url(../img/h3-background-img.jpg);
@@ -277,4 +289,16 @@ main .advertising .adv-img img {
 .container-img .center .tasto-pizza {
   right: 15px;
   bottom: 15px;
+}
+
+.build-pizza {
+  position: relative;
+}
+.build-pizza .row {
+  position: absolute;
+  top: 0px;
+  height: 370px;
+}
+.build-pizza .row .text {
+  padding: 74px 100px 74px 280px;
 }
