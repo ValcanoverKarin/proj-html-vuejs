@@ -119,6 +119,7 @@ header {
 
 main .advertising {
   margin-top: 5px;
+  margin-bottom: 5px;
   display: flex;
 }
 main .advertising .adv-img {
@@ -127,4 +128,13 @@ main .advertising .adv-img {
 }
 main .advertising .adv-img img {
   max-width: 100%;
+}
+
+.hello {
+  background-image: url(../img/h3-testimonials-bckgrnd.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }

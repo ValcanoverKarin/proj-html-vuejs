@@ -1,6 +1,7 @@
 main {
     .advertising {
         margin-top: 5px;
+        margin-bottom: 5px;
         display: flex;
 
         .adv-img {
@@ -12,4 +13,13 @@ main {
             }
         }
     }
+}
+
+.hello {
+    background-image: $bg-hello;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
