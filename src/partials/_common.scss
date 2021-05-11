@@ -16,12 +16,34 @@
     font-family: $font_common;
 }
 
-h2{
+.subtitle {
+    font-size: $medium_font;
+    font-weight: 600;
+    padding: 10px 0px 7px 0px;
+    font-family: $font_common;
+    color: $color_font_dgray;
+    text-transform: uppercase;
+}
+
+
+h2 {
     font-size: $title_font;
     font-weight: 700;
     text-transform: uppercase;
     font-family: $font_common;
+    color: $color_font_dgray;
+    padding-bottom: 7px;
 }
+
+p {
+    font-family: $font_second;
+    color: $color_font_lgray; 
+    font-size: $small_font_mont;
+    font-weight: 500;
+    padding-bottom: 6px;
+    margin-left: 28px;
+}
+
 
 //bottoni
 button {
@@ -78,13 +100,5 @@ ul {
         width: 20px;
         padding-right: 3px;
     }
-}
-
-//testi
-.subtitle {
-    font-size: $medium_font;
-    font-weight: 600;
-    padding: 10px 0px 7px 0px;
-    font-family: $font_common;
 }
 
