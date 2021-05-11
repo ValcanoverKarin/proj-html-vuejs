@@ -31,7 +31,7 @@ button {
 }
 
 .tasto-prev, .tasto-next {
-  height: 50px;
+  height: 45px;
   display: flex;
   align-items: center;
   position: absolute;
@@ -115,4 +115,16 @@ header {
   width: 52%;
   transform: translateX(46%);
   padding-top: 4px;
+}
+
+main .advertising {
+  margin-top: 5px;
+  display: flex;
+}
+main .advertising .adv-img {
+  margin-right: 5px;
+  flex: 25%;
+}
+main .advertising .adv-img img {
+  max-width: 100%;
 }

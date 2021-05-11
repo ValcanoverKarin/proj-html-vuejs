@@ -1,0 +1,15 @@
+main {
+    .advertising {
+        margin-top: 5px;
+        display: flex;
+
+        .adv-img {
+            margin-right: 5px;
+            flex: 25%;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
