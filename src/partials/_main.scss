@@ -16,6 +16,7 @@ main {
 
 .hello {
     @include hello-container;
+    margin-bottom: $margin_common;
 
     .quote {
         width: 39%;
@@ -47,9 +48,43 @@ main {
 
     .tasto-pizza {
         @include btn_pizza;
+        bottom: 15px;
+        right: 15px;
+    }
+}
+
+.row  {
+    display: flex;
+    height: 450px;
+    margin-bottom: $margin_common;
+
+    &.right{
+        flex-direction: row-reverse;
+    }
+
+    .big-img {
+        background-image: url(../img/h1-img-4.jpg);
+        background-position: center;
+        background-size: cover;
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         img {
-            width: 10px;
+            height: 230px;
+        }
+    } 
+
+
+    .text {
+        width: 50%;
+        padding: 60px 130px;
+        position: relative;
+
+        .tasto-pizza {
+            @include btn_pizza;
+            right: 15px;
         }
     }
 }

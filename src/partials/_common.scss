@@ -13,6 +13,14 @@
 .small-text {
     font-size: $small_font;
     letter-spacing: $space_font;
+    font-family: $font_common;
+}
+
+h2{
+    font-size: $title_font;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: $font_common;
 }
 
 //bottoni
@@ -50,6 +58,14 @@ button {
     }
 }
 
+.tasto-pizza {
+    @include btn_pizza;
+
+    img {
+        width: 10px;
+    }
+}
+
 //lista
 ul {
     list-style-type: none;
@@ -69,4 +85,6 @@ ul {
     font-size: $medium_font;
     font-weight: 600;
     padding: 10px 0px 7px 0px;
+    font-family: $font_common;
 }
+
