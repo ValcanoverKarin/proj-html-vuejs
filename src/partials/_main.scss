@@ -98,21 +98,32 @@ main {
 
 }
 
-.build-pizza {
+.container-img{
     height: 370px;
+    position: relative;
+    background-size: 87%;
+    background-position-y: -75px;
+    background-position-x: center;
+    background-image: $bg_build_pizza;
 
-    .up-container {
-        background-image: url(../img/h3-background-img.jpg);
+    .up {
+        background-image: $bg_build_pizza;
         background-position: bottom;
-        background-size: 88%;
+        background-size: 87%;
         height: 90px;
     }
 
-    .bottom-container {
-        background-image: url(../img/h3-background-img.jpg);
-        background-position: center;
-        background-size: 88%;
-        height: 272px;
+    .center {
+        background-image: $bg_build_pizza;
+        background-position: top;
+        background-size: 87%;
+        height: 190px;
+        position:relative;
+
+        .tasto-pizza {
+            right: 15px;
+            bottom: 15px;
+        }
     }
 }
 

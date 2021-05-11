@@ -95,7 +95,7 @@ button {
   position: absolute;
   background: #F6F7F2;
   border-radius: 50%;
-  padding: 4px 9px;
+  padding: 5px 9px;
 }
 .tasto-pizza img {
   width: 10px;
@@ -208,7 +208,7 @@ main .advertising .adv-img img {
   position: absolute;
   background: #F6F7F2;
   border-radius: 50%;
-  padding: 4px 9px;
+  padding: 5px 9px;
   bottom: 15px;
   right: 15px;
 }
@@ -249,22 +249,32 @@ main .advertising .adv-img img {
   position: absolute;
   background: #F6F7F2;
   border-radius: 50%;
-  padding: 4px 9px;
+  padding: 5px 9px;
   right: 15px;
 }
 
-.build-pizza {
+.container-img {
   height: 370px;
+  position: relative;
+  background-size: 87%;
+  background-position-y: -75px;
+  background-position-x: center;
+  background-image: url(../img/h3-background-img.jpg);
 }
-.build-pizza .up-container {
+.container-img .up {
   background-image: url(../img/h3-background-img.jpg);
   background-position: bottom;
-  background-size: 88%;
+  background-size: 87%;
   height: 90px;
 }
-.build-pizza .bottom-container {
+.container-img .center {
   background-image: url(../img/h3-background-img.jpg);
-  background-position: center;
-  background-size: 88%;
-  height: 272px;
+  background-position: top;
+  background-size: 87%;
+  height: 190px;
+  position: relative;
+}
+.container-img .center .tasto-pizza {
+  right: 15px;
+  bottom: 15px;
 }
