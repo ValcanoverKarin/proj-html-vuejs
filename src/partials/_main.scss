@@ -98,3 +98,21 @@ main {
 
 }
 
+.build-pizza {
+    height: 370px;
+
+    .up-container {
+        background-image: url(../img/h3-background-img.jpg);
+        background-position: bottom;
+        background-size: 88%;
+        height: 90px;
+    }
+
+    .bottom-container {
+        background-image: url(../img/h3-background-img.jpg);
+        background-position: center;
+        background-size: 88%;
+        height: 272px;
+    }
+}
+

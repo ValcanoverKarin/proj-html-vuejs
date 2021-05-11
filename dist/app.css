@@ -252,3 +252,19 @@ main .advertising .adv-img img {
   padding: 4px 9px;
   right: 15px;
 }
+
+.build-pizza {
+  height: 370px;
+}
+.build-pizza .up-container {
+  background-image: url(../img/h3-background-img.jpg);
+  background-position: bottom;
+  background-size: 88%;
+  height: 90px;
+}
+.build-pizza .bottom-container {
+  background-image: url(../img/h3-background-img.jpg);
+  background-position: center;
+  background-size: 88%;
+  height: 272px;
+}
