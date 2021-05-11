@@ -1,7 +1,6 @@
 main {
     .advertising {
         margin-top: 5px;
-        margin-bottom: 5px;
         display: flex;
 
         .adv-img {
@@ -16,10 +15,41 @@ main {
 }
 
 .hello {
-    background-image: $bg-hello;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    @include hello-container;
+
+    .quote {
+        width: 39%;
+        margin-top: 57px;
+        margin-bottom: 57px;
+
+        .fa-quote-left{
+            @include marks;
+        }
+
+        .small-text {
+            color: $orange_color;
+        }
+
+        .dots {
+            padding: 5px 0px 14px 0px;
+
+            i {
+                font-size: 4px;
+                color: $dots_color;
+
+                &:first-child {
+                    color: $gold_color;
+                }
+            }
+        }
+
+    }
+
+    .tasto-pizza {
+        @include btn_pizza;
+
+        img {
+            width: 10px;
+        }
+    }
 }

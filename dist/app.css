@@ -17,6 +17,7 @@
 
 .small-text {
   font-size: 7px;
+  letter-spacing: 1px;
 }
 
 button {
@@ -28,6 +29,7 @@ button {
   cursor: pointer;
   background-color: #D2401E;
   font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1px;
 }
 
 .tasto-prev, .tasto-next {
@@ -71,11 +73,18 @@ ul {
   padding-right: 3px;
 }
 
+.subtitle {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 0px 7px 0px;
+}
+
 header {
   background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
   position: relative;
   background-size: cover;
   font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 1px;
 }
 
 .navbar ul {
@@ -119,7 +128,6 @@ header {
 
 main .advertising {
   margin-top: 5px;
-  margin-bottom: 5px;
   display: flex;
 }
 main .advertising .adv-img {
@@ -132,9 +140,47 @@ main .advertising .adv-img img {
 
 .hello {
   background-image: url(../img/h3-testimonials-bckgrnd.jpg);
-  background-size: cover;
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hello .quote {
+  width: 39%;
+  margin-top: 57px;
+  margin-bottom: 57px;
+}
+.hello .quote .fa-quote-left {
+  color: #b7903c;
+  font-size: 30px;
+  padding-bottom: -20px;
+  line-height: 40px;
+}
+.hello .quote .small-text {
+  color: #D2401E;
+}
+.hello .quote .dots {
+  padding: 5px 0px 14px 0px;
+}
+.hello .quote .dots i {
+  font-size: 4px;
+  color: #EBEBDE;
+}
+.hello .quote .dots i:first-child {
+  color: #B7903C;
+}
+.hello .tasto-pizza {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: #F6F7F2;
+  border-radius: 50%;
+  padding: 2px 7px;
+}
+.hello .tasto-pizza img {
+  width: 10px;
 }

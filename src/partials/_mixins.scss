@@ -29,3 +29,31 @@
     color: $orange_color;
     text-transform: uppercase;
 }
+
+@mixin hello-container{
+    background-image: $bg-hello;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: $font_common;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin marks {
+    color: #b7903c;
+    font-size: 30px;
+    padding-bottom: -20px;
+    line-height: 40px;
+}
+
+@mixin btn_pizza {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: $bg_pizza_color;
+    border-radius: 50%;
+    padding: 2px 7px;
+}

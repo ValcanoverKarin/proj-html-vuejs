@@ -12,6 +12,7 @@
 
 .small-text {
     font-size: $small_font;
+    letter-spacing: $space_font;
 }
 
 //bottoni
@@ -19,6 +20,7 @@ button {
     @include btn_app;
     background-color: $orange_color;
     font-family: $font_common;
+    letter-spacing: $space_font;
 }
 
 .tasto-prev, .tasto-next {
@@ -33,6 +35,7 @@ button {
 
     .small-text {
         transform: rotate(90deg);
+
     }
 }
 
@@ -59,4 +62,11 @@ ul {
         width: 20px;
         padding-right: 3px;
     }
+}
+
+//testi
+.subtitle {
+    font-size: $medium_font;
+    font-weight: 600;
+    padding: 10px 0px 7px 0px;
 }
