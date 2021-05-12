@@ -459,10 +459,11 @@ main .advertising .adv-img img {
 }
 
 .booking {
-  padding: 68px 0px 60px 0px;
+  padding: 40px 0px 45px 0px;
   background-image: url(../img/h3-background-img-3.jpg);
   background-position-y: -10px;
   background-size: cover;
+  margin-bottom: 5px;
 }
 .booking .booking-input {
   align-items: center;
@@ -476,6 +477,9 @@ main .advertising .adv-img img {
 }
 .booking ul li {
   padding: 0 10px;
+}
+.booking ul li:first-child {
+  margin-top: 23px;
 }
 .booking ul li input {
   font-size: 8px;
@@ -494,5 +498,12 @@ main .advertising .adv-img img {
 .booking p {
   color: #F6F7F2;
   margin-top: 7px;
-  margin-left: 224px;
+  margin-left: 0;
+}
+
+footer .row {
+  height: 410px;
+}
+footer .right .big-img {
+  background-image: url(../img/footer-img-1.jpg);
 }

@@ -323,10 +323,11 @@ main {
 }
 
 .booking {
-    padding: 68px 0px 60px 0px;
+    padding: 40px 0px 45px 0px;
     background-image: $bg_booking;
     background-position-y: -10px;
     background-size: cover;
+    margin-bottom: $margin_common;
     
     .booking-input {
         align-items: center;
@@ -341,12 +342,17 @@ main {
 
         li {
             padding: 0 10px;
+
+            &:first-child {
+                margin-top: 23px;
+            }
             
             input {
                 font-size: $small_font;
                 border: 1px solid black;
                 width: 150px;
                 padding: 13px;
+
             }
 
             .small-text {
@@ -366,6 +372,6 @@ main {
     p {
         color: $bg_pizza_color;
         margin-top: 7px;
-        margin-left: 224px;
+        margin-left: 0;
     }
 }
