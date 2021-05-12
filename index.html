@@ -483,41 +483,27 @@
 
                 <!--testo-->
                 <div class="text">
-                    <h2>Specials*</h2>
-                    <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Prasesten ut.</p>
-                    
-                    <div>
-                        <div class="subtitle">
-                            <span>$10</span>
-                            combo piccolo
+                    <div class="restaurants">
+                        <div class="small-text">
+                            find our restaurants
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praestam aliquam dui. </p>
+                        <p v-for="adress in addresses">
+                            {{adress.street}} <br>
+                            {{adress.city}} <br>
+                            {{adress.phone}}
+                        </p>
                     </div>
-                    <div>
+                    <div class="working"></div>
+                    <div class="crew">
                         <div class="subtitle">
-                            <span>$20</span>
-                            combo medio
+                            {{crewFirst}}
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praestam aliquam dui. </p>
                     </div>
-                    <div>
-                        <div class="subtitle">
-                            <span>$30</span>
-                            combo grande
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praestam aliquam dui. </p>
-                    </div>
-                    <!--end testo-->
-
-                    <!--tasto pizza-->
-                    <div class="tasto-pizza">
-                        <img src="./img/svg/svg-4.svg" alt="">
-                    </div>
-                    <!--end tasto pizza-->
                 </div>
             </section>
         </footer>
         <!--END FOOTER-->
+
         <div class="lateral-bar">
             <div>
                 <img src="./img/svg/svg-7.svg" alt="">

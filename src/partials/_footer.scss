@@ -13,7 +13,36 @@ footer{
         .text {
             background-image: $bg-star;
             background-size: cover;
-            padding: 70px 40px 40px 40px;
+            padding: 70px 40px 125px 40px;;
+            display: flex;
+
+            div {
+                flex: calc(100% / 3);
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .small-text {
+                font-size: $list_font;
+                color: $white_color; 
+                color: $gold_color;
+                padding: 0;
+                padding-top: 11px;
+
+            }
+
+            p {
+                margin: 0px;
+                padding-bottom: 10px;
+                font-weight: 400;
+            }
+
+            .crew {
+                .subtitle {
+                    color: $white_color;
+                }
+            }
         }
     }
 }

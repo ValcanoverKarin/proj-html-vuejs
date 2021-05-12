@@ -528,5 +528,27 @@ footer .right .big-img {
 footer .right .text {
   background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
   background-size: cover;
-  padding: 70px 40px 40px 40px;
+  padding: 70px 40px 125px 40px;
+  display: flex;
+}
+footer .right .text div {
+  flex: calc(100% / 3);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+footer .right .text .small-text {
+  font-size: 12px;
+  color: white;
+  color: #B7903C;
+  padding: 0;
+  padding-top: 11px;
+}
+footer .right .text p {
+  margin: 0px;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+footer .right .text .crew .subtitle {
+  color: white;
 }
