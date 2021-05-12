@@ -235,7 +235,6 @@ main {
 
             .small-text {
                font-size: $list_font; 
-               
                padding-top: 8px;
 
                div {
@@ -320,5 +319,53 @@ main {
         right: 15px;
         top: 10px;
 
+    }
+}
+
+.booking {
+    padding: 68px 0px 60px 0px;
+    background-image: $bg_booking;
+    background-position-y: -10px;
+    background-size: cover;
+    
+    .booking-input {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li {
+            padding: 0 10px;
+            
+            input {
+                font-size: $small_font;
+                border: 1px solid black;
+                width: 150px;
+                padding: 13px;
+            }
+
+            .small-text {
+                font-size: $list_font;
+                color: $white_color; 
+            }
+
+            button {
+                padding: 13px 50px 13px 50px;
+                margin-left: 20px;
+            }
+
+        }
+
+    }
+
+    p {
+        color: $bg_pizza_color;
+        margin-top: 7px;
+        margin-left: 224px;
     }
 }

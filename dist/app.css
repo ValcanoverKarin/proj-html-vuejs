@@ -457,3 +457,42 @@ main .advertising .adv-img img {
   right: 15px;
   top: 10px;
 }
+
+.booking {
+  padding: 68px 0px 60px 0px;
+  background-image: url(../img/h3-background-img-3.jpg);
+  background-position-y: -10px;
+  background-size: cover;
+}
+.booking .booking-input {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.booking ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.booking ul li {
+  padding: 0 10px;
+}
+.booking ul li input {
+  font-size: 8px;
+  border: 1px solid black;
+  width: 150px;
+  padding: 13px;
+}
+.booking ul li .small-text {
+  font-size: 12px;
+  color: white;
+}
+.booking ul li button {
+  padding: 13px 50px 13px 50px;
+  margin-left: 20px;
+}
+.booking p {
+  color: #F6F7F2;
+  margin-top: 7px;
+  margin-left: 224px;
+}
