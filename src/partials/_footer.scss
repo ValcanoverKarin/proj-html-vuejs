@@ -3,6 +3,7 @@ footer{
     .row {
         height: 410px;
         margin-bottom:0px;
+        position: relative;
     }
 
     .right {
@@ -18,9 +19,15 @@ footer{
 
             div {
                 flex: calc(100% / 3);
-                padding: 10px;
                 display: flex;
                 flex-direction: column;
+            }
+
+            .restaurants {
+                
+                p {
+                    margin-bottom: 4px;
+                }
             }
 
             .small-text {
@@ -41,6 +48,39 @@ footer{
             .crew {
                 .subtitle {
                     color: $white_color;
+                }
+            }
+
+            .working {
+                span {
+                    font-size: $small_font;
+                }
+
+                .fab {
+                    color: $white_color;
+                    font-size: 6px;
+                    margin-left: 3px;
+                }
+            }
+        }
+
+        .tasto-pizza {
+            bottom: 15px;
+            right: 15px;
+        }
+
+        .quode {
+            position: absolute;
+            bottom: 27px;
+            left: 40px;
+
+            p {
+                margin: 0px;
+                font-size: $xs_font;
+                color: $gold_color;
+
+                span {
+                    color:$color_font_quote;
                 }
             }
         }

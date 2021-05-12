@@ -483,22 +483,87 @@
 
                 <!--testo-->
                 <div class="text">
+                    <!--prima colonna-->
                     <div class="restaurants">
                         <div class="small-text">
                             find our restaurants
                         </div>
-                        <p v-for="adress in addresses">
-                            {{adress.street}} <br>
-                            {{adress.city}} <br>
-                            {{adress.phone}}
-                        </p>
+                        <div>
+                            <p v-for="adress in addresses">
+                                {{adress.street}} <br>
+                                {{adress.city}} <br>
+                                {{adress.phone}}
+                            </p>
+                        </div>
                     </div>
-                    <div class="working"></div>
+                    <!--end prima colonna-->
+
+                    <!--seconda colonna-->
+                    <div class="working">
+                        <div class="small-text">
+                           working hours
+                        </div>
+
+                        <div>
+                            <span class="small-text">
+                                monday
+                            </span>
+                            <p>
+                                <span>Kitchen Closed</span>
+                            </p>
+                        </div>
+
+                        <div>
+                            <span class="small-text">
+                                tuesday until friday
+                            </span>
+                            <p>9:00 - 22:00</p>
+                        </div>
+
+                        <div>
+                            <span class="small-text">
+                                saturday
+                            </span>
+                            <p>saturday 11am to midnight</p>
+                        </div>
+
+                        <div>
+                            <span class="small-text">
+                                sunday
+                            </span>
+                            <p>9:00 - 22:00</p>
+                        </div>
+
+                        <div>
+                            <span class="small-text">
+                                follow us: 
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-instagram-square"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <!--end seconda colonna-->
+
+                    <!--terza colonna-->
                     <div class="crew">
                         <div class="subtitle">
                             {{crewFirst}}
                         </div>
                     </div>
+                    <!--end terza colonna-->
+                </div>
+                <!--end testo-->
+
+                <!--tasto pizza-->
+                <div class="tasto-pizza">
+                    <img src="./img/svg/svg-4.svg" alt="">
+                </div>
+                <!--end tasto pizza-->
+
+                <div class="quode">
+                    <p>Created with <i class="far fa-heart"></i> by <span>Quode Interactive</span></p>
                 </div>
             </section>
         </footer>

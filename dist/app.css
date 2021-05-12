@@ -521,6 +521,7 @@ main .advertising .adv-img img {
 footer .row {
   height: 410px;
   margin-bottom: 0px;
+  position: relative;
 }
 footer .right .big-img {
   background-image: url(../img/footer-img-1.jpg);
@@ -533,9 +534,11 @@ footer .right .text {
 }
 footer .right .text div {
   flex: calc(100% / 3);
-  padding: 10px;
   display: flex;
   flex-direction: column;
+}
+footer .right .text .restaurants p {
+  margin-bottom: 4px;
 }
 footer .right .text .small-text {
   font-size: 12px;
@@ -551,4 +554,29 @@ footer .right .text p {
 }
 footer .right .text .crew .subtitle {
   color: white;
+}
+footer .right .text .working span {
+  font-size: 8px;
+}
+footer .right .text .working .fab {
+  color: white;
+  font-size: 6px;
+  margin-left: 3px;
+}
+footer .right .tasto-pizza {
+  bottom: 15px;
+  right: 15px;
+}
+footer .right .quode {
+  position: absolute;
+  bottom: 27px;
+  left: 40px;
+}
+footer .right .quode p {
+  margin: 0px;
+  font-size: 7px;
+  color: #B7903C;
+}
+footer .right .quode p span {
+  color: #339966;
 }
