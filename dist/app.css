@@ -18,6 +18,7 @@
   font-size: 8px;
   letter-spacing: 2px;
   font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
 }
 
 .subtitle {
@@ -32,7 +33,7 @@
 
 h2 {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
   color: #303030;
@@ -334,4 +335,26 @@ main .advertising .adv-img img {
 }
 .logos .container-logo .five-logos img {
   width: 139px;
+}
+
+.menu-pizza {
+  padding: 50px 0;
+  text-align: center;
+}
+.menu-pizza .choose-flavor {
+  padding-bottom: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-pizza .choose-flavor .choose-flavor-text {
+  width: 35%;
+}
+.menu-pizza .choose-flavor .choose-flavor-text .small-text {
+  color: #D2401E;
+}
+.menu-pizza .choose-flavor .choose-flavor-text p {
+  font-size: 10px;
+  margin: 0;
 }

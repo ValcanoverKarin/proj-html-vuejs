@@ -14,6 +14,7 @@
     font-size: $small_font;
     letter-spacing: $space_font;
     font-family: $font_common;
+    text-transform: uppercase;
 }
 
 .subtitle {
@@ -29,7 +30,7 @@
 
 h2 {
     font-size: $title_font;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     font-family: $font_common;
     color: $color_font_dgray;

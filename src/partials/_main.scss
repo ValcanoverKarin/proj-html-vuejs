@@ -179,3 +179,30 @@ main {
     }
 }
 
+.menu-pizza {
+    padding: 50px 0;
+    text-align: center;
+
+    .choose-flavor {
+        padding-bottom: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .choose-flavor-text{
+            width: 35%;
+
+            .small-text {
+                color: $orange_color;
+            }
+
+            p {
+                font-size: 10px;
+                margin: 0;
+            }
+        }
+    }
+
+}
+
