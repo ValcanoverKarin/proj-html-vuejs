@@ -185,7 +185,7 @@ main {
 }
 
 .menu-pizza {
-    padding: 65px 0px;
+    padding: 65px 0px 100px 0px;
     text-align: center;
 
     .choose-flavor {
@@ -216,7 +216,7 @@ main {
 }
 
 .list-pizza {
-
+    color: $orange_color;
     padding-top: 75px;
 
     ul {
@@ -231,6 +231,19 @@ main {
             img {
                 height: 160px;
                 width: 160px;
+            }
+
+            .small-text {
+               font-size: $list_font; 
+               
+               padding-top: 8px;
+
+               div {
+                &:first-child {
+                    color: $gold_color;
+                    padding-bottom: 3px;
+                }
+               }
             }
         }
     }

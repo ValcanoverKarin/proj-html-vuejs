@@ -16,9 +16,10 @@
 
 .small-text {
   font-size: 8px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .subtitle {
@@ -67,7 +68,7 @@ button {
   cursor: pointer;
   background-color: #D2401E;
   font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .tasto-prev, .tasto-next {
@@ -127,7 +128,7 @@ header {
   position: relative;
   background-size: cover;
   font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .navbar ul {
@@ -342,7 +343,7 @@ main .advertising .adv-img img {
 }
 
 .menu-pizza {
-  padding: 65px 0px;
+  padding: 65px 0px 100px 0px;
   text-align: center;
 }
 .menu-pizza .choose-flavor {
@@ -366,6 +367,7 @@ main .advertising .adv-img img {
 }
 
 .list-pizza {
+  color: #D2401E;
   padding-top: 75px;
 }
 .list-pizza ul {
@@ -380,4 +382,12 @@ main .advertising .adv-img img {
 .list-pizza ul li img {
   height: 160px;
   width: 160px;
+}
+.list-pizza ul li .small-text {
+  font-size: 12px;
+  padding-top: 8px;
+}
+.list-pizza ul li .small-text div:first-child {
+  color: #B7903C;
+  padding-bottom: 3px;
 }
