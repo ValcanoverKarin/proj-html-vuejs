@@ -129,6 +129,23 @@ ul {
   margin: 25px 0;
 }
 
+.lateral-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 50%;
+  right: 0;
+  background-color: white;
+}
+.lateral-bar img {
+  height: 12px;
+  margin: 5px;
+}
+.lateral-bar div:first-child {
+  background-color: #EE2852;
+}
+
 header {
   background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
   position: relative;
@@ -503,7 +520,13 @@ main .advertising .adv-img img {
 
 footer .row {
   height: 410px;
+  margin-bottom: 0px;
 }
 footer .right .big-img {
   background-image: url(../img/footer-img-1.jpg);
+}
+footer .right .text {
+  background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
+  background-size: cover;
+  padding: 70px 40px 40px 40px;
 }

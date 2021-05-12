@@ -121,3 +121,22 @@ ul {
     margin: 25px 0;
 }
 
+.lateral-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    background-color:$white_color;
+
+    img {
+        height: 12px;
+        margin: 5px;
+    }
+    div{
+        &:first-child{
+            background-color:$bg_lateral_bar ;
+        }
+    }
+}
