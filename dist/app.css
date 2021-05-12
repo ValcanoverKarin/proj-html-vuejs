@@ -123,6 +123,12 @@ ul {
   padding-right: 3px;
 }
 
+.dotted-line {
+  border: none;
+  border-top: 1.5px dotted #b7903c;
+  margin: 25px 0;
+}
+
 header {
   background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
   position: relative;
@@ -392,6 +398,62 @@ main .advertising .adv-img img {
   padding-bottom: 3px;
 }
 
-.star .big-img {
+.delish {
+  height: 570px;
+  position: relative;
+}
+.delish .text {
+  background-image: url(../img/h3-rev-bckgrnd-ing.jpg);
+  background-size: cover;
+  height: 490px;
+  padding: 65px 180px 74px 125px;
+}
+.delish .text .small-text {
+  color: #AB4027;
+  padding-bottom: 5px;
+}
+.delish .text h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+.delish .text .date {
+  display: flex;
+  align-items: center;
+}
+.delish .text .date .subtitle {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0;
+}
+.delish .text .date .subtitle .number {
+  font-size: 35px;
+  color: #AB4027;
+}
+.delish .text .date .location {
+  padding-left: 26px;
+}
+.delish .text .date .location .subtitle {
+  padding: 0;
+}
+.delish .text .date .location .place {
+  color: #AB4027;
+}
+.delish .text .date .location .place i {
+  font-size: 10px;
+  padding-right: 3px;
+}
+.delish .text .date .location .place p {
+  padding: 0;
+  display: inline;
+  margin: 0;
+  color: #AB4027;
+}
+.delish .big-img {
   background-image: url(../img/h3-img-5a.jpg);
+}
+.delish .tasto-pizza {
+  right: 15px;
+  top: 10px;
 }

@@ -249,9 +249,76 @@ main {
     }
 }
 
-.star {
+.delish {
+    height: 570px;
+    position: relative;
+
+    .text {
+        background-image: $bg-star;
+        background-size: cover;
+        height: 490px;
+        padding: 65px 180px 74px 125px;
+
+        .small-text {
+            color: $color_font_brown;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            color: $white_color;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            display: flex;
+            align-items: center;
+
+            .subtitle {
+                color: $white_color;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 0;
+    
+                .number {
+                    font-size: $number_font;
+                    color: $color_font_brown;
+                }
+            }
+
+            .location {
+                padding-left: 26px;
+
+                .subtitle {
+                    padding: 0;
+                }
+
+                .place {
+                    color: $color_font_brown;
+
+                    i {
+                        font-size: $medium_font_mont;
+                        padding-right: 3px;
+                    }
+
+                    p {
+                        padding: 0;
+                        display: inline;
+                        margin: 0;
+                        color: $color_font_brown;
+                    }
+                }
+            }
+        }
+    }
 
     .big-img{
         background-image: url(../img/h3-img-5a.jpg);
+    }
+
+    .tasto-pizza {
+        right: 15px;
+        top: 10px;
+
     }
 }
