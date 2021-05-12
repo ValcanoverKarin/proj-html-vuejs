@@ -156,6 +156,11 @@ main {
             width: 100%;
         }
     }
+
+    .tasto-pizza {
+        bottom: 30px;
+        right: 15px;
+    }
 }
 
 .logos {
@@ -180,18 +185,17 @@ main {
 }
 
 .menu-pizza {
-    padding: 50px 0;
+    padding: 65px 0px;
     text-align: center;
 
     .choose-flavor {
-        padding-bottom: 50px;
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
 
         .choose-flavor-text{
-            width: 35%;
+            width: 30%;
 
             .small-text {
                 color: $orange_color;
@@ -204,5 +208,31 @@ main {
         }
     }
 
+    .tasto-pizza {
+        right: 15px;
+
+    }
+
+}
+
+.list-pizza {
+
+    padding-top: 75px;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+
+        li {
+            flex: calc(100% / 6);
+            padding: 0 40px;
+
+            img {
+                height: 160px;
+                width: 160px;
+            }
+        }
+    }
 }
 

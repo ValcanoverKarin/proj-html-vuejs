@@ -318,6 +318,10 @@ main .advertising .adv-img img {
 .workers-team .worker img {
   width: 100%;
 }
+.workers-team .tasto-pizza {
+  bottom: 30px;
+  right: 15px;
+}
 
 .logos {
   background: #f7f7f2;
@@ -338,18 +342,17 @@ main .advertising .adv-img img {
 }
 
 .menu-pizza {
-  padding: 50px 0;
+  padding: 65px 0px;
   text-align: center;
 }
 .menu-pizza .choose-flavor {
-  padding-bottom: 50px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .menu-pizza .choose-flavor .choose-flavor-text {
-  width: 35%;
+  width: 30%;
 }
 .menu-pizza .choose-flavor .choose-flavor-text .small-text {
   color: #D2401E;
@@ -357,4 +360,24 @@ main .advertising .adv-img img {
 .menu-pizza .choose-flavor .choose-flavor-text p {
   font-size: 10px;
   margin: 0;
+}
+.menu-pizza .tasto-pizza {
+  right: 15px;
+}
+
+.list-pizza {
+  padding-top: 75px;
+}
+.list-pizza ul {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.list-pizza ul li {
+  flex: calc(100% / 6);
+  padding: 0 40px;
+}
+.list-pizza ul li img {
+  height: 160px;
+  width: 160px;
 }
