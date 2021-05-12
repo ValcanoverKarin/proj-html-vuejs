@@ -136,7 +136,45 @@ main {
         height: 370px;
 
         .text {
-            padding: 74px 100px 74px 280px;
+            padding: 74px 80px 74px 280px;
+        }
+    }
+}
+
+.workers-team {
+    display: flex;
+    position: relative;
+    margin-bottom: $margin_common;
+
+    .worker {
+        flex: 25%;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.logos {
+    background: #f7f7f2;
+
+    .container-logo {
+        width: 58%;
+        margin: auto;
+        align-items: center;
+        position: relative;
+
+        .five-logos {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0px;
+    
+            img {
+                width: 139px;
+            }
         }
     }
 }
