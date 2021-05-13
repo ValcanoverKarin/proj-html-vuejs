@@ -44,20 +44,18 @@
                 <!--centrale-->
                 <div class="center">
                     <ul>
-                        <li class="icon"> 
+                        <li class="icon" v-for="link in menu_left_nav"> 
                             <img src="./img/svg/svg-0.svg" alt="">   
-                            home
+                            {{link}}
                         </li>
-                        <li>pages</li>
-                        <li>menu</li>
                         <!--logo-->
                         <li class="logo-app">
-                            <img src="./img/h5-logo-divided-header.png" alt="">
+                            <img :src="logo_nav.logo" alt="logo_nav.logo">
                         </li>
                         <!--end logo-->
-                        <li>event</li>
-                        <li>blog</li>
-                        <li>landing</li>
+                        <li v-for="link in menu_right_nav">
+                            {{link}}
+                        </li>
                     </ul>
                 </div>
                 <!--end centrale-->

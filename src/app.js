@@ -3,6 +3,25 @@ var app = new Vue(
         el: '#root',
         data: {
 
+            menu_left_nav: [
+                'Home',
+                'pages',
+                'menu',
+            ],
+
+            logo_nav: {
+                logo: 'img/h5-logo-divided-header.png',
+                alt: 'logo'
+            },
+
+            menu_right_nav: [
+                'Event',
+                'Blog',
+                'Landing',
+            ],
+
+
+            //FOOTER
             crewFirst:
             "THE DON PEPPE CREW FIRST AND FOREMOST VALUES AN AUTHENTIC, WELL BAKED SLICE OF PIZZA.",
             
