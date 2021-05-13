@@ -155,12 +155,50 @@ main {
         img {
             width: 100%;
         }
+
+        .info {
+            position: absolute;
+            background: $orange_color;
+            border: 20px solid white;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+            opacity: 0;
+            transition: opacity 0.7s;
+
+            .subtitle {
+                color: white;
+                padding: 3px;
+            }
+
+            p {
+                color: $white_color;
+                margin-left: 0px;
+                margin-bottom: 5px;
+            }
+
+            .fab {
+                color: white;
+                margin: 3px;
+            }
+        }
     }
 
     .tasto-pizza {
         bottom: 30px;
         right: 15px;
     }
+}
+
+.workers-team .worker:hover .info {
+    cursor: pointer;
+    opacity: 1;
 }
 
 .logos {

@@ -342,9 +342,43 @@ main .advertising .adv-img img {
 .workers-team .worker img {
   width: 100%;
 }
+.workers-team .worker .info {
+  position: absolute;
+  background: #D2401E;
+  border: 20px solid white;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+.workers-team .worker .info .subtitle {
+  color: white;
+  padding: 3px;
+}
+.workers-team .worker .info p {
+  color: white;
+  margin-left: 0px;
+  margin-bottom: 5px;
+}
+.workers-team .worker .info .fab {
+  color: white;
+  margin: 3px;
+}
 .workers-team .tasto-pizza {
   bottom: 30px;
   right: 15px;
+}
+
+.workers-team .worker:hover .info {
+  cursor: pointer;
+  opacity: 1;
 }
 
 .logos {

@@ -3,6 +3,7 @@ var app = new Vue(
         el: '#root',
         data: {
 
+            //HEADER
             menu_left_nav: [
                 'home',
                 'pages',
