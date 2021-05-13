@@ -4,7 +4,7 @@ var app = new Vue(
         data: {
 
             menu_left_nav: [
-                'Home',
+                'home',
                 'pages',
                 'menu',
             ],
@@ -18,6 +18,11 @@ var app = new Vue(
                 'Event',
                 'Blog',
                 'Landing',
+            ],
+
+            menu_search_nav: [
+                'Cart',
+                'Search',
             ],
 
 

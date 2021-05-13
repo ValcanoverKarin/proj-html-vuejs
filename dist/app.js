@@ -10,12 +10,13 @@
 var app = new Vue({
   el: '#root',
   data: {
-    menu_left_nav: ['Home', 'pages', 'menu'],
+    menu_left_nav: ['home', 'pages', 'menu'],
     logo_nav: {
       logo: 'img/h5-logo-divided-header.png',
       alt: 'logo'
     },
     menu_right_nav: ['Event', 'Blog', 'Landing'],
+    menu_search_nav: ['Cart', 'Search'],
     //FOOTER
     crewFirst: "THE DON PEPPE CREW FIRST AND FOREMOST VALUES AN AUTHENTIC, WELL BAKED SLICE OF PIZZA.",
     addresses: [{

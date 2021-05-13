@@ -44,13 +44,12 @@
                 <!--centrale-->
                 <div class="center">
                     <ul>
-                        <li class="icon" v-for="link in menu_left_nav"> 
-                            <img src="./img/svg/svg-0.svg" alt="">   
+                        <li class="icon" v-for="link in menu_left_nav">  
                             {{link}}
                         </li>
                         <!--logo-->
                         <li class="logo-app">
-                            <img :src="logo_nav.logo" alt="logo_nav.logo">
+                            <img :src="logo_nav.logo" :alt="logo_nav.logo">
                         </li>
                         <!--end logo-->
                         <li v-for="link in menu_right_nav">
@@ -63,13 +62,8 @@
                 <!--destra-->
                 <div class="right">
                     <ul>
-                        <li class="icon">
-                            <img src="./img/svg/svg-1.svg" alt=""> 
-                            cart
-                        </li>
-                        <li>
-                            <i class="fas fa-search"></i> 
-                            search
+                        <li class="icon" v-for="link in menu_search_nav">
+                            {{link}}
                         </li>
                     </ul>
                 </div>
