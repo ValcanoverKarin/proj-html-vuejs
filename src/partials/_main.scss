@@ -2,16 +2,32 @@ main {
     .advertising {
         margin-top: 5px;
         display: flex;
+        position: relative;
 
         .adv-img {
+            position: relative;
             margin-right: 5px;
             flex: 25%;
 
             img {
                 max-width: 100%;
             }
+
+            .eyes {
+                @include hover;
+                background: $white_color;
+
+                img {
+                    width: 50px;
+                }
+            }
         }
     }
+}
+
+main .advertising .adv-img:hover .eyes {
+    cursor: pointer;
+    opacity: 1;
 }
 
 .hello {
@@ -157,20 +173,9 @@ main {
         }
 
         .info {
-            position: absolute;
+            @include hover;
             background: $orange_color;
             border: 20px solid white;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            margin: auto;
-            opacity: 0;
-            transition: opacity 0.7s;
 
             .subtitle {
                 color: white;
