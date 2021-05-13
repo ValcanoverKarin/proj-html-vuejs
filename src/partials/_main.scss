@@ -1,4 +1,5 @@
 main {
+    //sezione advertising
     .advertising {
         margin-top: 5px;
         display: flex;
@@ -30,6 +31,7 @@ main .advertising .adv-img:hover .eyes {
     opacity: 1;
 }
 
+//sezione hello
 .hello {
     @include hello-container;
     margin-bottom: $margin_common;
@@ -69,6 +71,7 @@ main .advertising .adv-img:hover .eyes {
     }
 }
 
+//sezione pizza special
 .row  {
     display: flex;
     height: 490px;
@@ -144,6 +147,7 @@ main .advertising .adv-img:hover .eyes {
     }
 }
 
+//sezione build pizza
 .build-pizza {
     position: relative;
     .row {
@@ -157,6 +161,7 @@ main .advertising .adv-img:hover .eyes {
     }
 }
 
+//sezione people
 .workers-team {
     display: flex;
     position: relative;
@@ -206,6 +211,7 @@ main .advertising .adv-img:hover .eyes {
     opacity: 1;
 }
 
+//sezione logos
 .logos {
     background: #f7f7f2;
 
@@ -227,6 +233,7 @@ main .advertising .adv-img:hover .eyes {
     }
 }
 
+//sezione menu pizza
 .menu-pizza {
     padding: 65px 0px 100px 0px;
     text-align: center;
@@ -291,6 +298,7 @@ main .advertising .adv-img:hover .eyes {
     }
 }
 
+//sezione delish
 .delish {
     height: 570px;
     position: relative;
@@ -365,6 +373,7 @@ main .advertising .adv-img:hover .eyes {
     }
 }
 
+//sezione booking
 .booking {
     padding: 40px 0px 45px 0px;
     background-image: $bg_booking;

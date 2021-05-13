@@ -10,6 +10,7 @@
     @include navabar_link;
 }
 
+//font
 .small-text {
     font-size: $small_font;
     letter-spacing: $space_font;
@@ -115,12 +116,14 @@ ul {
     }
 }
 
+
 .dotted-line {
     border: none;
     border-top: 1.5px dotted #b7903c;
     margin: 25px 0;
 }
 
+//barretta laterale
 .lateral-bar {
     display: flex;
     flex-direction: column;
@@ -129,6 +132,7 @@ ul {
     bottom: 50%;
     right: 0;
     background-color:$white_color;
+    cursor: pointer;
 
     img {
         height: 12px;

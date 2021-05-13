@@ -27,6 +27,7 @@
     background: $white_color;
     color: $orange_color;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 @mixin hello-container{
@@ -52,6 +53,7 @@
     background: $bg_pizza_color;
     border-radius: 50%;
     padding: 5px 9px;
+    cursor: pointer;
 }
 
 @mixin hover {
